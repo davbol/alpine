@@ -1,19 +1,3 @@
 theme: jekyll-theme-cayman
-
-# Site settings
-title: Tech Providers in Europe
-description: A simple list of technology providers in Europe.
-baseurl: ""
-url: ""
-
-# Enable dark mode
-dark_mode: true
-
-# GitHub metadata (optional)
-github:
-  is_project_page: false
-
-# Plugins (optional, but recommended)
-plugins:
-  - jekyll-seo-tag
-  - jekyll-feed
+title: Alpine
+description: Simple static list for European technology providers!
