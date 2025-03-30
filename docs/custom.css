@@ -13,6 +13,71 @@ body {
     padding: 20px;
 }
 
+/* Navbar Styling */
+.navbar {
+    background-color: #2c3e50;
+    /* Changed to Dark Blue */
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-categories {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-categories-label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-links li {
+    margin-left: 20px;
+}
+
+.navbar-link {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+    color: #ddd;
+}
+
+/* External Link Styling */
+.external-link::after {
+    content: "↗"; /* Unicode for an arrow pointing up and to the right */
+    margin-left: 5px;
+    font-size: 0.8em;
+}
+
+
 /* Container */
 .container {
     max-width: 800px;
@@ -24,7 +89,12 @@ body {
 }
 
 /* Headings */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin-top: 20px;
     margin-bottom: 10px;
     color: #333;
@@ -60,7 +130,8 @@ a:hover {
 }
 
 /* Lists */
-ul, ol {
+ul,
+ol {
     margin-bottom: 20px;
     padding-left: 20px;
 }
@@ -82,22 +153,50 @@ summary {
     font-weight: bold;
 }
 
-/* Tables */
+/* Table Styling */
 table {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px;
+    border-spacing: 0; /* Remove default spacing */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Hide overflow for rounded corners */
 }
 
-th, td {
-    border: 1px solid #ccc;
-    padding: 8px;
+th,
+td {
+    border: 1px solid #ddd; /* Lighter border color */
+    padding: 12px 15px; /* Increased padding */
     text-align: left;
+    line-height: 1.4; /* Improved line height */
 }
 
 th {
-    background-color: #f0f0f0;
+    background-color: #f0f0f0; /* Light gray background for headers */
+    font-weight: 600; /* Slightly bolder header text */
+    color: #333; /* Dark text for headers */
+    text-transform: uppercase; /* Uppercase header text */
+    letter-spacing: 0.5px; /* Slight letter spacing */
 }
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Light gray background for even rows */
+}
+
+tbody tr:hover {
+    background-color: #f0f0f0; /* Light gray background on hover */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Responsive Table (Basic) */
+@media (max-width: 768px) {
+    table {
+        display: block;
+        overflow-x: auto; /* Enable horizontal scrolling on small screens */
+    }
+}
+
 /* Code */
 code {
     background-color: #eee;
