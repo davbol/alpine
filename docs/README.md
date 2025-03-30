@@ -76,3 +76,11 @@ AI and data analytics are transforming industries. While **OpenAI (U.S.)**, **Go
 - **[Dataiku](https://www.dataiku.com)** 🇫🇷 (France) - AI-driven data science and machine learning platform.
 
 This list provides an overview of major European technology service providers across different sectors. More services will be added as the industry evolves.
+
+## Large Language Models (LLM) & Generative AI
+As AI-powered applications grow, European companies are emerging as strong competitors to American firms like **OpenAI (ChatGPT)** and **Anthropic (Claude)**.
+
+- **[Aleph Alpha](https://www.aleph-alpha.com)** 🇩🇪 (Germany) - Focuses on explainable AI and multilingual generative models.
+- **[Mistral AI](https://mistral.ai)** 🇫🇷 (France) - Developing open-weight LLMs with strong performance.
+- **[LightOn](https://lighton.ai)** 🇫🇷 (France) - AI models designed for enterprise applications.
+- **[DeepMind (Google UK)](https://deepmind.com)** 🇬🇧 (United Kingdom) - Though owned by Google, DeepMind is a leading AI research lab based in Europe.
